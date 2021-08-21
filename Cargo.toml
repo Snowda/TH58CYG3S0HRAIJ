@@ -1,0 +1,18 @@
+[package]
+
+name = "TH58CYG3S0HRAIJ"
+version = "0.0.1"
+authors = ["Conor Forde"]
+edition = '2018'
+
+repository = "https://www.github.com/Snowda/TH58CYG3S0HRAIJ"
+
+description = "TH58CYG3S0HRAIJ Library"
+keywords = ["TH58CYG3S0HRAIJ", "hardware", "flash memory"]
+
+[[bin]]
+name = "test"
+path = "src/lib.rs"
+
+[dependencies]
+embedded-hal = "0.2.6"
